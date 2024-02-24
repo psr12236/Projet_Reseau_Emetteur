@@ -1,0 +1,14 @@
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\bin\Debug\net8.0\UDPSender.exe
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\bin\Debug\net8.0\UDPSender.deps.json
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\bin\Debug\net8.0\UDPSender.runtimeconfig.json
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\bin\Debug\net8.0\UDPSender.dll
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\bin\Debug\net8.0\UDPSender.pdb
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\obj\Debug\net8.0\UDPSender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\obj\Debug\net8.0\UDPSender.AssemblyInfoInputs.cache
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\obj\Debug\net8.0\UDPSender.AssemblyInfo.cs
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\obj\Debug\net8.0\UDPSender.csproj.CoreCompileInputs.cache
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\obj\Debug\net8.0\UDPSender.dll
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\obj\Debug\net8.0\refint\UDPSender.dll
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\obj\Debug\net8.0\UDPSender.pdb
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\obj\Debug\net8.0\UDPSender.genruntimeconfig.cache
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\UDPSender\obj\Debug\net8.0\ref\UDPSender.dll

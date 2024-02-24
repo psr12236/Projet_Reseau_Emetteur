@@ -1,0 +1,42 @@
+﻿[03/02 09:06] LIEVIN Marc
+Bonjour Monsieur, 
+ 
+Concernant le projet, j'ai commencé à regarder cette semaine, et je suis tombé sur (https://learn.microsoft.com/en-us/dotnet/standard/serialization/) avec un grand warning concernant la serialisation en format Binaire.
+Il est proposé d'autres alternatives comme le Json/XML.... 
+Est-ce que je pars du principe que l'application doit prendre en compte l'avertissement de sécurité de Microsoft et donc ne pas utiliser quelque chose d'obsolète ou j'utilise ça car c'est ce qui se rapproche le plus de ce que l'on fait? 
+ 
+Un bon weekend 
+
+
+[03/02 09:11] ORTEGAT Pierre
+Bonjour,
+L'avertissement s'adresse à des programmes à destination de productions.
+Dans le cadre du cour, ce n'est pas grave si vous ignorez le wargning, le but est que vous vous famillarisez avec les méchanismes réseaux colassiques.
+Bon w-e,
+P. Ortegat
+
+
+[10:16] LIEVIN Marc
+	Bonjour Monsieur,
+ 
+	on a quelques question pour le projet :
+ 
+	1. Le port de communication peut être hardcodé?
+
+	2. pour le début du projet on commence sur bien sûr le protocole Udp pour ensuite utiliser de la logique tcp ? On ne peut pas juste utiliser des tcplistener et tcpsender?
+
+	3. un paquet fait un total de 48bits alors? Ou on prévois plus de place pour les données?
+
+		public ushort PacketTotalSize; // Taille totale des données - 16 bits
+
+		public ushort PacketSequenceNumber; // Le numéro de séquence du paquet - 16 bits
+
+		public byte Flags; // 8 bits pour les flags (4 utilisés ici) : Les flags du paquets - SYN - 1 bit / ACK - 1 bit / FIN - 1 bit / RST - 1 bit
+
+		public byte[] Data; // Les données - variable
+
+	4. il faut avoir une boucle qui va écouter en permanence ou une classe worker qui tourne en arrière plan ou les deux?
+[10:17] LIEVIN Marc
+*lles flags sont repris en byte car pas plus petit 
+
+
